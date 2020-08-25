@@ -469,3 +469,15 @@ header {
   margin-left: auto;
   margin-right: auto;
 }
+
+.portfolio__desc {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid black;
+}
+
+.social-list__link__desc {
+  padding: 0.5em;
+  color: black;
+}
