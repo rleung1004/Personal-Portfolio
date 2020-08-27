@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ryan Leung | Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
+        
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="index.html#skills" class="nav__link">My Skills</a></li>
+                <li class="nav__item"><a href="index.html#about" class="nav__link">About Me</a></li>
+                <li class="nav__item"><a href="index.html#work" class="nav__link">My Work</a></li>
+                <li class="nav__item"><a href="/src/Ryan_Leung_CV.pdf" class="nav__link">Resume</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="intro">
+        <h1 class="section__title section__title--intro">
+            Nearest Store <strong>Visualizer</strong>
+        </h1>
+        <p class="section__subtitle section__subtitle--intro">12-hour Hackathon</p>
+        <img src="src/img/nearest-store-preview.png" alt="" class="intro__img">
+    </section>
+
+    <div class="portfolio-item-individual">
+        <p>
+            <strong>Tools used:</strong> Python, Pandas, Folium, Google Cloud Platform
+        </p>
+        <p>
+            <strong>Links:</strong>
+            <a class="social-list__link__desc" href="https://github.com/rleung1004/COMP1510_hackathon">
+                <i class="fab fa-github"></i>
+            </a>
+        </p>
+        <img src="src/img/nearest-store-screenshot.png" alt="sorting-animation" class="portfolio__desc">
+        <p>
+            For our final exam of Programming Methods course, we had a 12 hour hackathon to create a Python3 program that is related to COVID-19.
+        </p>
+
+        <p>
+            This Python application takes the user's postal code as an input, and it will generate an HTML file containing a map with ranking icons. Each icon represents a grocery store, and the number on top of it represents its recommendation ranking based on travel time, queue time, and crowdedness.
+        </p>
+        
+        <p>
+            <strong>Problem:</strong> 
+            <p>
+                The pandemic of COVID-19 brought social distancing into our daily lives and new health regulations, resulting in line ups for grocery stores. 
+            </p>
+            
+        </p>
+
+        
+        <p>
+            <strong>Solution:</strong> 
+            <p>
+                To create a nearest store finder and show what stores are open at the time of use based on the user's location, and rank the options based on three criteria: travel time, queue time, and crowdedness.
+            </p>
+        </p>
+
+        <p>
+            <strong>My Role:</strong> 
+            <p>
+                I created functions that parsed information from the Google Cloud Platform API. I also participated in tweaking the ranking algorithm, and created functions that parsed information from the populartimes module that was open source on github. I was also in charge to making sure our code was complying to PEP8 style and making sure every function has accurate docstrings and doctests that are helpful. I also created functions that wrote a csv file with store information and ranking. I created functions that generate the folium map that created the visualization of nearby stores and their rankings.
+            </p>
+            
+        </p>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <a href="mailto:ryanleung1004@gmail.com" class="footer__link">ryanleung1004@gmail.com</a>
+        <ul class="social-list">
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://github.com/rleung1004">
+                    <i class="fab fa-github"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://www.linkedin.com/in/ryan-wk-leung/">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+            </li>
+        </ul>
+    </footer>
+
+    <script src="src/js/index.js"></script>
+</body>
+</html>
