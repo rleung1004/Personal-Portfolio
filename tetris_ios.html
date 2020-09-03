@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ryan Leung | Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
+        
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="index.html#skills" class="nav__link">My Skills</a></li>
+                <li class="nav__item"><a href="index.html#about" class="nav__link">About Me</a></li>
+                <li class="nav__item"><a href="index.html#work" class="nav__link">My Work</a></li>
+                <li class="nav__item"><a href="/src/Ryan_Leung_CV.pdf" class="nav__link">Resume</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="intro">
+        <h1 class="section__title section__title--intro">
+            Tetris <strong>iOS Game</strong>
+        </h1>
+        <p class="section__subtitle section__subtitle--intro">Personal Project</p>
+        <img src="src/img/tetris_icon.png" alt="" class="intro__img">
+    </section>
+
+    <div class="portfolio-item-individual">
+        <p>
+            <strong>Tools used:</strong> Swift, SpriteKit, XCode
+        </p>
+        <p>
+            <strong>Links:</strong>
+            <a class="social-list__link__desc" href="https://github.com/rleung1004/iOS_Tetris">
+                <i class="fab fa-github"></i>
+            </a>
+        </p>
+        <img src="src/img/Tetris_iOS_demo.gif" alt="sorting-animation" class="portfolio__desc">
+        <p>In August 2020 during my summer break, I decided make a quick iOS project. At first I followed a tutorial on how to create a simple iOS application that created a interactive UI using the Storyboard maker on XCode.</p>
+        <p>This is my first iOS Project application, it took me a weekend to finish. I decided Tetris was a good idea for a project since Swift is primarily an Object Oriented Programming language. Tetris has the blocks, and each shape can have many different attributes to it. This gave me the perfect opportunity to create a Shape super class and create a subclass for each different falling shape.</p>
+        <p>Using SpriteKit was like drawing in a canvas tag in Javascript. Creating exploding animations for the collapsing lines was the hardest part of the project, it took a few searches on Google for me to figure out how!</p>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <a href="mailto:ryanleung1004@gmail.com" class="footer__link">ryanleung1004@gmail.com</a>
+        <ul class="social-list">
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://github.com/rleung1004">
+                    <i class="fab fa-github"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://www.linkedin.com/in/ryan-wk-leung/">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+            </li>
+        </ul>
+    </footer>
+
+    <script src="src/js/index.js"></script>
+</body>
+</html>
