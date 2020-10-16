@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ryan Leung | Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
+        
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="nav__header">
+            <a href="index.html" class="nav__link">Home</a>
+            <a href="index.html#skills" class="nav__link">Skills</a>
+            <a href="index.html#about" class="nav__link">About Me</a>
+            <a href="index.html#work" class="nav__link">Work</a>
+            <a href="../src/Ryan_Leung_CV.pdf" class="nav__link">Resume</a>
+        </div>
+        <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="index.html#skills" class="nav__link">Skills</a></li>
+                <li class="nav__item"><a href="index.html#about" class="nav__link">About Me</a></li>
+                <li class="nav__item"><a href="index.html#work" class="nav__link">Work</a></li>
+                <li class="nav__item"><a href="../src/Ryan_Leung_CV.pdf" class="nav__link">Resume</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="intro">
+        <h1 class="section__title section__title--intro">
+            Ruby's<strong>Adventure</strong>
+        </h1>
+        <p class="section__subtitle section__subtitle--intro">Personal Project</p>
+        <img src="src/img/ruby-preview.png" alt="" class="intro__img">
+    </section>
+
+    <div class="portfolio-item-individual">
+        <p>
+            <strong>Tools used:</strong> C#, Unity, Unity Editor, Visual Studio
+        </p>
+        <p>
+            <strong>Links:</strong>
+            <a class="social-list__link__desc" href="https://github.com/rleung1004/Ruby_Adventure">
+                <i class="fab fa-github"></i>
+            </a>
+        </p>
+        <img src="src/img/ruby-demo.gif" alt="ruby demo" class="portfolio__desc">
+        <p>This is my first ever Unity project, and is also my first formal game development project.</p>
+
+        <p>
+            <strong>In this project experience I learned how to:</strong>
+        </p>
+        
+        <ul>
+            <li>Use the Unity Editor</li>
+            <li>Create characters and scripts for world interaction</li>
+            <li>Set controller and keyboard inputs</li>
+            <li>Design a world with Tilemaps</li>
+            <li>Decorate the world with a Tile Palette</li>
+            <li>Utilize BoxCollider2D and RigidBody2D to create world interactions</li>
+            <li>Utilize layers to define physics behaviours in the world</li>
+            <li>Implemented sprite animations</li>
+            <li>Create a physics system to emulate projectile behaviour</li>
+            <li>Utilized Cinemachine package to create a moving player camera</li>
+            <li>Create particles and C# scripts to define triggers for it</li>
+            <li>Create a dynamic Heads-Up Display user interface</li>
+            <li>Create Raycast for game dialog</li>
+            <li>Implement audio and utilize C# scripts to trigger audio clips at events</li>
+        </ul>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <a href="mailto:ryanleung1004@gmail.com" class="footer__link">ryanleung1004@gmail.com</a>
+        <ul class="social-list">
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://github.com/rleung1004">
+                    <i class="fab fa-github"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://www.linkedin.com/in/ryan-wk-leung/">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+            </li>
+        </ul>
+    </footer>
+
+    <script src="src/js/index.js"></script>
+</body>
+</html>
